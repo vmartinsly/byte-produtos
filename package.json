@@ -1,0 +1,12 @@
+{
+  "name": "bytegamer-oo",
+  "version": "1.0.0",
+  "description": "Projeto para treinar skils de programação Orientado a Objeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Martins Lyra",
+  "license": "ISC",
+  "type": "module"
+}
