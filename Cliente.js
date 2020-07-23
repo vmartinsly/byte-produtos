@@ -1,5 +1,4 @@
 import { Conta } from "./Conta.js";
-import { Produto } from "./Produto.js";
 
 export class Cliente {
     _nome;
@@ -17,8 +16,9 @@ export class Cliente {
         }
     };
 
-    comprar(produto) {
+    comprar(produto, contaDaLoja) {
         const precoDoProduto = produto.preco;
-        console.log(precoDoProduto);
+        this._conta.transfere(precoDoProduto, contaDaLoja);
+        
     }
 }
